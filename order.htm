@@ -97,9 +97,29 @@
                    <option value="Pan">Pan</option>
                 </select>
                
-               <label for="quantity">Quantity<br />(Call for quantities larger than 10 pizzas)</label>
+               <label for="quantity">Quantity<br />(Call for quantities larger than 10 pizzas)</label>              <!--NUMBER SPINNER-->
                <input name="quantity" id="quantity" type="number" value="1"
                       min="1" max="10" step="1" />
+               
+               <label for="instructions">Special Instructions</label>
+               <textarea name="instructions" label="instructions"></textarea>                                       <!--TEXTAREA-->
+               
+               
+               <!--MEAT & VEGETABLE TOPPINGS FIELDSETS-->
+               <fieldset id="meat">                                                                                 <!--MEAT FIELDSET-->
+                   <legend>Meat Toppings</legend>
+                   <label>Location</label>
+                   <img src="full.png" alt="full" />                                                                    <!--IMAGES-->
+                   <img src="left.png" alt="left" />
+                   <img src="right.png" alt="right" />
+                   <img src="none.png" alt="none" />
+               
+               </fieldset>
+               
+               <fieldset id="vegetables">                                                                           <!--VEGETABLES FIELDSET-->
+                   <legend>Vegetable Toppings</legend>
+               
+               </fieldset>
            
            </fieldset>
        
