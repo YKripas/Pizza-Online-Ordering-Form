@@ -64,15 +64,24 @@
            <fieldset id="custInfo">                                                                             <!--CUSTOMER INFO FIELDSET-->
                <legend>Customer Information</legend>
                
-               <label for="custname">Name*                                                                      <!--NAME-->
-               <input  name="custname "id="custname" required="required" placeholder="First and Last Name" /></label>
+               <label for="custname">Name*</label>                                                                  <!--NAME-->
+               <input  name="custname "id="custname" required="required" 
+                      placeholder="First and Last Name" />
                
-               <label for="address">Delivery Address*
-               <textarea  name="address" id="address" required="required"></textarea></label>
+               <label for="address">Delivery Address*</label>                                                       <!--ADDRESS FIELD-->
+               <textarea  name="address" id="address" required="required"></textarea>
+               
+               <label for="phone">Phone*</label>                                                                    <!--PHONE FIELD-->
+               <input name="phone" id="phone" placeholder="(nnn) nnn-nnnn"
+                      required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />                   <!--PHONE VALIDATION-->
+               
+               <label for="delTime">Delivery Time<br />(leave blank for immediate delivery)</label>
+               <input name="delTime" id="delTime" placeholder="hh:mm AM/PM"
+                      pattern="^([0-9]|1[012]):[0-5][0-9]\s?((a|p)m|(A|P)M)$" />
            
            </fieldset>
            
-           <fieldset id="buildPizza">                   <!--BUILD PIZZA FIELDSET-->
+           <fieldset id="buildPizza">                                                                            <!--BUILD PIZZA FIELDSET-->
                <legend>Build Your Own Pizza</legend>
            
            </fieldset>
