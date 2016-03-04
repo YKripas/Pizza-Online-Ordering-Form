@@ -51,3 +51,11 @@ input, textarea{
 textarea{
     height: 100px;
 }
+form img{
+    display: block;
+    float: left;
+    margin: 5px 0px 5px 0px;
+}
+#delTime{
+    width: 150px;
+}
