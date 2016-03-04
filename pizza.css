@@ -13,3 +13,23 @@
 */
 
 
+fieldset{
+    background-color: rgb(255,246,205);
+    border: 1px rgb(233,69,0);
+    float: left;
+    margin: 1%;
+}
+
+#custInfo{
+    width: 35%;
+}
+#buildPizza{
+    width: 60%;
+}
+#meat, #vegetables{
+    width: 47%;
+    background-color: rgb(237,178,74);
+}
+fieldset legend{
+    font-size: 0.9em;
+}
