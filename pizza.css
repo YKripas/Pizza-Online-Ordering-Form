@@ -45,4 +45,9 @@ label{
 input, textarea{
     display: block;
     float: left;
+    width: 50%;
+    margin: 5px 0px 5px 0px;
+}
+textarea{
+    height: 100px;
 }
