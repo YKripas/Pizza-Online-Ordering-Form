@@ -80,3 +80,10 @@ fieldset.optionGroup{
     border: none;
     background-color: transparent;
 }
+fieldset.optionGroup input type="radio"{
+    width: 30px;
+}
+
+fieldset.optionGroup input type="checkbox"{
+    width: 20px;
+}
