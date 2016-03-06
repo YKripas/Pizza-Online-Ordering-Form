@@ -101,3 +101,18 @@ select:focus{
 input:focus{
     background-color:rgb(220,255,220); 
 }
+input:focus:valid{
+    background-color: rgb(220,255,220);
+    background-image: url(okay.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+input:focus:invalid{
+    background-color: rgb(220,255,220);
+    background-image:url(warning.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
