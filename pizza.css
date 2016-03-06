@@ -39,7 +39,7 @@ label{
     clear: left;
     float: left;
     width: 40%;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 5px;
 }
 
 input, textarea{
