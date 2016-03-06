@@ -65,7 +65,7 @@
                <legend>Customer Information</legend>
                
                <label for="custname">Name*</label>                                                                  <!--NAME-->
-               <input  name="custname "id="custname" required="required" 
+               <input  name="custname" id="custname" required="required" 
                       placeholder="First and Last Name" />
                
                <label for="address">Delivery Address*</label>                                                       <!--ADDRESS FIELD-->
@@ -102,7 +102,7 @@
                       min="1" max="10" step="1" />
                
                <label for="instructions">Special Instructions</label>
-               <textarea name="instructions" label="instructions"></textarea>                                       <!--TEXTAREA-->
+               <textarea name="instructions" id="instructions"></textarea>                                       <!--TEXTAREA-->
                
                
                <!--MEAT & VEGETABLE TOPPINGS FIELDSETS-->
@@ -114,38 +114,52 @@
                    <img src="right.png" alt="right" />
                    <img src="none.png" alt="none" />
                    
+                   <label for="pepperoni" >Pepperoni</label>
                    <fieldset class="optionGroup">
-                       <label for="pepperoni" >Pepperoni</label>
+                       
                        <input type="radio" name="pepperoni" id="pepperoni" value="full" />
                        <input type="radio" name="pepperoni" id="pepperoni" value="left" />
                        <input type="radio" name="pepperoni" id="pepperoni" value="right"/>
                        <input type="radio" name="pepperoni" id="pepperoni" value="none" checked />
+                   </fieldset>
+                   
+                   <label for="ham" >Ham</label>
+                   <fieldset class="optionGroup">    
                        
-                       <label for="ham" >Ham</label>
                        <input type="radio" name="ham" id="ham" value="full" />
                        <input type="radio" name="ham" id="ham" value="left" />
                        <input type="radio" name="ham" id="ham" value="right" />
                        <input type="radio" name="ham" id="ham" value="none" checked />
+                   </fieldset>
+                   
+                   <label for="ham" >Pork</label>
+                   <fieldset class="optionGroup">    
                        
-                       <label for="ham" >Pork</label>
                        <input type="radio" name="pork" id="pork" value="full" />
                        <input type="radio" name="pork" id="pork" value="left" />
                        <input type="radio" name="pork" id="pork" value="right" />
                        <input type="radio" name="pork" id="pork" value="none" checked />
+                   </fieldset>
+                   
+                   <label for="ham" >Sausage</label>
+                   <fieldset class="optionGroup">    
                        
-                       <label for="ham" >Sausage</label>
                        <input type="radio" name="sausage" id="sausage" value="full" />
                        <input type="radio" name="sausage" id="sausage" value="left" />
                        <input type="radio" name="sausage" id="sausage" value="right" />
                        <input type="radio" name="sausage" id="sausage" value="none" checked />
+                   </fieldset>
+                   
+                   
+                   <label for="ham" >Chicken</label>    
+                   <fieldset class="optionGroup">    
                        
-                       
-                       <label for="ham" >Chicken</label>
                        <input type="radio" name="chicken" id="chicken" value="full" />
                        <input type="radio" name="chicken" id="chicken" value="left" />
                        <input type="radio" name="chicken" id="chicken" value="right" />
-                       <input type="radio" name="chicken" id="chicken" value="none" checked />                 
+                       <input type="radio" name="chicken" id="chicken" value="none" checked />
                    </fieldset>
+                   
                
                </fieldset>
                
@@ -157,33 +171,45 @@
                    <img src="right.png" alt="right" />
                    <img src="none.png" alt="none" />
                    
+                   <label for="mushrooms" >Mushrooms</label>
                    <fieldset class="optionGroup">
-                       <label for="mushrooms" >Mushrooms</label>
+                       
                        <input type="radio" name="mushrooms" id="mushrooms" value="full" />
                        <input type="radio" name="mushrooms" id="mushrooms" value="left" />
                        <input type="radio" name="mushrooms" id="mushrooms" value="right" />
                        <input type="radio" name="mushrooms" id="mushrooms" value="none" checked />
+                   </fieldset>
+                   
+                   <label for="green peppers" >Green Peppers</label>
+                   <fieldset class="optionGroup">    
                        
-                       <label for="green peppers" >Green Peppers</label>
                        <input type="radio" name="green peppers" id="green peppers" value="full" />
                        <input type="radio" name="green peppers" id="green peppers" value="left" />
                        <input type="radio" name="green peppers" id="green peppers" value="right" />
                        <input type="radio" name="green peppers" id="green peppers" value="none" checked />
+                    </fieldset>
+                   
+                   <label for="onions" >Onions</label>
+                   <fieldset class="optionGroup">    
                        
-                       <label for="onions" >Onions</label>
                        <input type="radio" name="onions" id="onions" value="full" />
                        <input type="radio" name="onions" id="onions" value="left" />
                        <input type="radio" name="onions" id="onions" value="right" />
                        <input type="radio" name="onions" id="onions" value="none" checked />
+                   </fieldset>
+                   
+                   <label for="tomatoes" >Tomatoes</label>
+                   <fieldset class="optionGroup">    
                        
-                       <label for="tomatoes" >Tomatoes</label>
                        <input type="radio" name="tomatoes" id="tomatoes" value="full" />
                         <input type="radio" name="tomatoes" id="tomatoes" value="left" />
                         <input type="radio" name="tomatoes" id="tomatoes" value="right" />
                         <input type="radio" name="tomatoes" id="tomatoes" value="none" checked />
+                   </fieldset>
+                   
+                  <label for="jalapenos" >Jalapenos</label>     
+                   <fieldset class="optionGroup">    
                        
-                       
-                       <label for="jalapenos" >Jalapenos</label>
                        <input type="radio" name="jalapenos" id="jalapenos" value="full" />
                        <input type="radio" name="jalapenos" id="jalapenos" value="left" />
                        <input type="radio" name="jalapenos" id="jalapenos" value="right" />
