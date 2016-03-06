@@ -92,3 +92,12 @@ input[type="submit"]{
     float: none;
     margin: 0px auto 0px auto;
 }
+ textarea:focus{
+    background-color: rgb(220,255,220);
+}
+select:focus{
+    background-color:rgb(220,255,220);
+}
+input:focus{
+    background-color:rgb(220,255,220); 
+}
