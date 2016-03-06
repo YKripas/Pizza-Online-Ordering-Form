@@ -87,3 +87,8 @@ fieldset.optionGroup{
 input[type="checkbox"]{
     width: 20px;
 }
+input[type="submit"]{
+    width: 150px;
+    float: none;
+    margin: 0px auto 0px auto;
+}
